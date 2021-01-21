@@ -1,0 +1,6 @@
+create table Author(
+Author_ID varchar(10),
+a_fname varchar(25) not null,
+a_lname varchar(25),
+primary key(Author_ID));
+
