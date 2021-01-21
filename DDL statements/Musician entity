@@ -1,0 +1,7 @@
+create table Musician(
+Musician_Id varchar(10),
+M_FName varchar(25),
+M_LName varchar (25),
+Album_Id varchar(10) not null,
+primary key (Musician_Id),
+foreign key(Album_ID) references Album);
