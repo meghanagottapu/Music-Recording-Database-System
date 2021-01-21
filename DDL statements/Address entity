@@ -1,0 +1,9 @@
+create table Address(
+Musician_Id varchar(10),
+PhNo numeric(12),
+Street varchar(40),
+City varchar(20),
+State varchar(20),
+Pincode numeric(12),
+primary key (PhNo),
+foreign key(Musician_ID) references Musician);
