@@ -1,0 +1,8 @@
+create table Song(
+Song_id varchar(10),
+Song_Title varchar(25) not null,
+Album_Id varchar(10) not null,
+Author_Id varchar(10),
+primary key (Song_Id),
+foreign key(Album_ID) references Album,
+foreign key(Author_ID) references Author);
