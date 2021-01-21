@@ -1,0 +1,6 @@
+create table Client(
+C_ID varchar(10) ,
+CName varchar(30),
+C_PNo numeric(12) not null,
+Addr varchar(50),
+primary key(C_ID));
