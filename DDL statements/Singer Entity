@@ -1,0 +1,6 @@
+create table Singer(
+S_ID varchar(10),
+SName varchar(25),
+Album_Id varchar(10) not null,
+primary key(s_id),
+foreign key(Album_ID) references Album);
