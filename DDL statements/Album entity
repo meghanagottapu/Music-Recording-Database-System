@@ -1,0 +1,15 @@
+create table Album(
+Album_ID varchar(10),
+Album_Title varchar(30) not null,
+MUSICIAN_ID PHNO Street CITY STATE PINCODE
+S_ID SNAME ALBUM_ID
+S_ID S_PNO
+SONG_ID S_ID MUSICIAN_ID
+Format varchar(4),
+Day numeric(3),
+Month varchar(10),
+Year numeric(12),
+Price numeric(6),
+C_ID varchar(10),
+primary key(Album_ID),
+foreign key(C_ID) references Client);
